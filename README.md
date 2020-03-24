@@ -1,4 +1,4 @@
-# Low power moisture sensor
+# Low power moisture sensor :droplet: :tulip:
 
 The goal is to develop a simple, energy-saving soil moisture sensor for your indoor plants. 
 
