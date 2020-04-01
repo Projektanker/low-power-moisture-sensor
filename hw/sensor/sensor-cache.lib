@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# _Connector_Testpoint_TestPoint_Pad_2.0x2.0mm
+#
+DEF _Connector_Testpoint_TestPoint_Pad_2.0x2.0mm X 0 30 N N 1 F N
+F0 "X" 0 270 50 H V C CNN
+F1 "_Connector_Testpoint_TestPoint_Pad_2.0x2.0mm" 0 200 50 H V C CNN
+F2 "TestPoint:TestPoint_Pad_2.0x2.0mm" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+F4 "-" 100 200 50 H I C CNN "MF"
+F5 "-" 200 300 50 H I C CNN "MPN"
+F6 "-" 300 400 50 H I C CNN "OC_CONRAD"
+F7 "-" 400 500 50 H I C CNN "OC_FARNELL"
+F8 "-" 500 600 50 H I C CNN "OC_MOUSER"
+F9 "-" 600 700 50 H I C CNN "OC_REICHELT"
+F10 "122" 700 800 50 H I C CNN "ID"
+F11 "-" 800 900 50 H I C CNN "Description"
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

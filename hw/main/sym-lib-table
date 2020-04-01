@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name project)(type Legacy)(uri C:/workspace/low-power-moisture-sensor/hw/library/project.lib)(options "")(descr ""))
+)

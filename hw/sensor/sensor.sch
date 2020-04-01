@@ -1,0 +1,114 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 3250 2600 0    50   ~ 0
+CAP1
+Text Label 3250 2750 0    50   ~ 0
+CAP2
+$Comp
+L _Connector_Testpoint:TestPoint_Pad_2.0x2.0mm X1
+U 1 1 5E8372DC
+P 3600 2550
+F 0 "X1" H 3658 2668 50  0000 L CNN
+F 1 "TestPoint_Pad_2.0x2.0mm" H 3658 2577 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 3800 2550 50  0001 C CNN
+F 3 "" H 3800 2550 50  0001 C CNN
+F 4 "-" H 3700 2750 50  0001 C CNN "MF"
+F 5 "-" H 3800 2850 50  0001 C CNN "MPN"
+F 6 "-" H 3900 2950 50  0001 C CNN "OC_CONRAD"
+F 7 "-" H 4000 3050 50  0001 C CNN "OC_FARNELL"
+F 8 "-" H 4100 3150 50  0001 C CNN "OC_MOUSER"
+F 9 "-" H 4200 3250 50  0001 C CNN "OC_REICHELT"
+F 10 "122" H 4300 3350 50  0001 C CNN "ID"
+F 11 "-" H 4400 3450 50  0001 C CNN "Description"
+	1    3600 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Connector_Testpoint:TestPoint_Pad_2.0x2.0mm X3
+U 1 1 5E837C99
+P 4700 2550
+F 0 "X3" H 4758 2668 50  0000 L CNN
+F 1 "TestPoint_Pad_2.0x2.0mm" H 4758 2577 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4900 2550 50  0001 C CNN
+F 3 "" H 4900 2550 50  0001 C CNN
+F 4 "-" H 4800 2750 50  0001 C CNN "MF"
+F 5 "-" H 4900 2850 50  0001 C CNN "MPN"
+F 6 "-" H 5000 2950 50  0001 C CNN "OC_CONRAD"
+F 7 "-" H 5100 3050 50  0001 C CNN "OC_FARNELL"
+F 8 "-" H 5200 3150 50  0001 C CNN "OC_MOUSER"
+F 9 "-" H 5300 3250 50  0001 C CNN "OC_REICHELT"
+F 10 "122" H 5400 3350 50  0001 C CNN "ID"
+F 11 "-" H 5500 3450 50  0001 C CNN "Description"
+	1    4700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Connector_Testpoint:TestPoint_Pad_2.0x2.0mm X2
+U 1 1 5E838159
+P 3600 2800
+F 0 "X2" H 3542 2826 50  0000 R CNN
+F 1 "TestPoint_Pad_2.0x2.0mm" H 3542 2917 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 3800 2800 50  0001 C CNN
+F 3 "" H 3800 2800 50  0001 C CNN
+F 4 "-" H 3700 3000 50  0001 C CNN "MF"
+F 5 "-" H 3800 3100 50  0001 C CNN "MPN"
+F 6 "-" H 3900 3200 50  0001 C CNN "OC_CONRAD"
+F 7 "-" H 4000 3300 50  0001 C CNN "OC_FARNELL"
+F 8 "-" H 4100 3400 50  0001 C CNN "OC_MOUSER"
+F 9 "-" H 4200 3500 50  0001 C CNN "OC_REICHELT"
+F 10 "122" H 4300 3600 50  0001 C CNN "ID"
+F 11 "-" H 4400 3700 50  0001 C CNN "Description"
+	1    3600 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L _Connector_Testpoint:TestPoint_Pad_2.0x2.0mm X4
+U 1 1 5E83880F
+P 4700 2800
+F 0 "X4" H 4642 2826 50  0000 R CNN
+F 1 "TestPoint_Pad_2.0x2.0mm" H 4642 2917 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4900 2800 50  0001 C CNN
+F 3 "" H 4900 2800 50  0001 C CNN
+F 4 "-" H 4800 3000 50  0001 C CNN "MF"
+F 5 "-" H 4900 3100 50  0001 C CNN "MPN"
+F 6 "-" H 5000 3200 50  0001 C CNN "OC_CONRAD"
+F 7 "-" H 5100 3300 50  0001 C CNN "OC_FARNELL"
+F 8 "-" H 5200 3400 50  0001 C CNN "OC_MOUSER"
+F 9 "-" H 5300 3500 50  0001 C CNN "OC_REICHELT"
+F 10 "122" H 5400 3600 50  0001 C CNN "ID"
+F 11 "-" H 5500 3700 50  0001 C CNN "Description"
+	1    4700 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 2750 4700 2800
+Wire Wire Line
+	3250 2750 3600 2750
+Wire Wire Line
+	3600 2800 3600 2750
+Connection ~ 3600 2750
+Wire Wire Line
+	3600 2750 4700 2750
+Wire Wire Line
+	4700 2600 4700 2550
+Wire Wire Line
+	3250 2600 3600 2600
+Wire Wire Line
+	3600 2550 3600 2600
+Connection ~ 3600 2600
+Wire Wire Line
+	3600 2600 4700 2600
+$EndSCHEMATC
